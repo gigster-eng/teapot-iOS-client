@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="123"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select your item from the list below or enter the details on the next screen." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYl-Ev-CsZ">
+                    <rect key="frame" x="174" y="68" width="253" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="9eu-Rg-joo"/>
+                        <constraint firstAttribute="width" constant="253" id="wkz-MC-zNT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VHk-ly-fe7" customClass="AutocompleteSearchBar" customModule="Teapot" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="58"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="58" id="VyQ-Go-Pgn"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.89411764705882346" green="0.90196078431372551" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="tintColor" red="0.90588235289999997" green="0.91764705879999997" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="cYl-Ev-CsZ" firstAttribute="top" secondItem="VHk-ly-fe7" secondAttribute="bottom" constant="10" id="5Aj-7f-l5U"/>
+                <constraint firstItem="VHk-ly-fe7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="K7m-4I-3AV"/>
+                <constraint firstAttribute="trailing" secondItem="VHk-ly-fe7" secondAttribute="trailing" id="V5e-oK-Rvv"/>
+                <constraint firstItem="VHk-ly-fe7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kdb-xz-Jrv"/>
+                <constraint firstAttribute="bottom" secondItem="cYl-Ev-CsZ" secondAttribute="bottom" constant="10" id="pC2-wn-7zy"/>
+                <constraint firstItem="cYl-Ev-CsZ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="tY2-gt-6KA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="696" y="730.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,147 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - APAddressBook/Core (0.2.3)
+  - APAddressBook/Swift (0.2.3):
+    - APAddressBook/Core
+  - AWSCore (2.3.6)
+  - AWSS3 (2.3.6):
+    - AWSCore (= 2.3.6)
+  - Bolts (1.6.0):
+    - Bolts/AppLinks (= 1.6.0)
+    - Bolts/Tasks (= 1.6.0)
+  - Bolts/AppLinks (1.6.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.6.0)
+  - Branch (0.11.18)
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - DateTools (1.7.0)
+  - DBCamera (2.4.1):
+    - GPUImage (~> 0.1)
+  - DGRunkeeperSwitch (1.1.1)
+  - Fabric (1.6.7)
+  - FBSDKCoreKit (4.10.1):
+    - Bolts (~> 1.5)
+  - FBSDKLoginKit (4.10.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.10.1):
+    - FBSDKCoreKit
+  - Google/Core (2.0.3):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.1)
+  - Google/SignIn (2.0.3):
+    - Google/Core
+    - GoogleSignIn (~> 3.0)
+  - GoogleAppUtilities (1.1.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleAuthUtilities (2.0.0):
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleInterchangeUtilities (1.2.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleNetworkingUtilities (1.2.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleSignIn (3.0.0):
+    - GoogleAppUtilities (~> 1.0)
+    - GoogleAuthUtilities (~> 2.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.0)
+  - GoogleSymbolUtilities (1.1.0)
+  - GoogleUtilities (1.2.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GPUImage (0.1.7)
+  - HCSStarRatingView (1.4.3)
+  - IQKeyboardManager (4.0.0)
+  - JazzHands (2.0.8)
+  - MBProgressHUD (0.9.2)
+  - MMNumberKeyboard (0.1.5)
+  - MZAppearance (1.1.6)
+  - MZFormSheetPresentationController (2.3.2):
+    - MZAppearance
+  - Realm (0.98.6):
+    - Realm/Headers (= 0.98.6)
+  - Realm/Headers (0.98.6)
+  - RealmSwift (0.98.6):
+    - Realm (= 0.98.6)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SlackTextViewController (1.9.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - APAddressBook/Swift
+  - AWSS3 (~> 2.3)
+  - Branch
+  - Crashlytics
+  - DateTools
+  - DBCamera (~> 2.4)
+  - DGRunkeeperSwitch (~> 1.1)
+  - Fabric
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - Google/SignIn
+  - HCSStarRatingView (~> 1.4.3)
+  - IQKeyboardManager
+  - JazzHands
+  - MBProgressHUD
+  - MMNumberKeyboard
+  - MZFormSheetPresentationController (~> 2.2)
+  - RealmSwift
+  - SDWebImage
+  - SlackTextViewController
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  APAddressBook: 2a91bf05999548bea210ec9d1a68073f4dc8bfce
+  AWSCore: 917d84b32974136194a905b98c0ae25c9f3350b8
+  AWSS3: 1caaf6b45100503fecf3d418c394519a89409a74
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
+  Branch: 64f4f08eaf69bdb5b1f46d4f1f4479494755a073
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  DBCamera: 7a4343a541e1264610f9f33176552b93170a843e
+  DGRunkeeperSwitch: da12f199532a99958a1e87ec0a5af61efdba11ec
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  FBSDKCoreKit: d2aaed5e9ab7d8d6301c533376a1fbff1cf3deb5
+  FBSDKLoginKit: 699ff169080e3072de4b9b0faca90bf23dc36deb
+  FBSDKShareKit: 2fd887cce0056bdda91f99b2021d724a4fed8e88
+  Google: 61379f0072bc561a7e174d23a6cbe41bd6d8599c
+  GoogleAppUtilities: 974598e8ed618c74ead33541d9caffbc3d144266
+  GoogleAuthUtilities: 79e4143c77a08081a480b08df27a066cc8944f43
+  GoogleInterchangeUtilities: 427382e42d8a340038bec37c6fdfd316e14b5fa2
+  GoogleNetworkingUtilities: ec1e9911aca811eb18b7144394fee6168b607785
+  GoogleSignIn: 3d571172b8603be39dcb1705d8217146bb76fe62
+  GoogleSymbolUtilities: eb3965ea12710569c7b80db198a39e39b18613f7
+  GoogleUtilities: 85f8ad6b251544286a97163133d042ec95f889c5
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  HCSStarRatingView: bada6ae98258c3019531e0218030e2d5ad10765a
+  IQKeyboardManager: b91928f7927ba55a5829b4dcf4b7a6736ac9fc22
+  JazzHands: 355dc5c2b6fc38ee460d0ed7836c69539263f477
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MMNumberKeyboard: 12da79571d08aca21566534a74726c5469aed29a
+  MZAppearance: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
+  MZFormSheetPresentationController: bba52eb65feb3b70ae83ed28fd20991802d4adeb
+  Realm: 44803f35418c5d89b27825a564247fcd190de37e
+  RealmSwift: c7239c52c83f8c43525a5269ba7be1694da33afc
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SlackTextViewController: 6b0d1030c53937226fc5358f217af2a34fc211cf
+
+COCOAPODS: 0.39.0

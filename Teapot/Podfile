@@ -1,0 +1,37 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'Teapot' do
+    pod 'JazzHands'
+    pod 'Fabric'
+    pod 'Crashlytics'
+    pod 'FBSDKCoreKit'
+    pod 'FBSDKLoginKit'
+    pod 'FBSDKShareKit'
+    pod 'AFNetworking'
+    pod 'RealmSwift'
+    pod 'Google/SignIn'
+    pod 'APAddressBook/Swift'
+    pod 'MBProgressHUD'
+    pod 'SDWebImage'
+    pod 'DBCamera', '~> 2.4'
+    pod 'AWSS3', '~> 2.3'
+    pod 'DateTools'
+    pod 'MZFormSheetPresentationController', '~> 2.2'
+    pod 'SlackTextViewController'
+    pod 'HCSStarRatingView', '~> 1.4.3'
+    pod 'DGRunkeeperSwitch', '~> 1.1'
+    pod 'Branch'
+    pod 'IQKeyboardManager'
+    pod 'MMNumberKeyboard'
+    
+end
+
+target 'TeapotTests' do
+
+end
+
+target 'TeapotUITests' do
+
+end
+

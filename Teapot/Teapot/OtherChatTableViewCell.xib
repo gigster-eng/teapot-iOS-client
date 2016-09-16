@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+            <string>Lato-Regular</string>
+            <string>Lato-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="GPb-i1-zed" customClass="OtherChatTableViewCell" customModule="Teapot" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GPb-i1-zed" id="h0Z-4v-9IU">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="81.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Maria" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMr-r9-W8h">
+                        <rect key="frame" x="22" y="52" width="28" height="14"/>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="11"/>
+                        <color key="textColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="green-chat-bubble" translatesAutoresizingMaskIntoConstraints="NO" id="XSa-di-7EH">
+                        <rect key="frame" x="56" y="13" width="248" height="40"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uk5-R0-Acd" customClass="DesignableImage" customModule="Teapot" customModuleProvider="target">
+                        <rect key="frame" x="16" y="8" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Epw-oT-zJo"/>
+                            <constraint firstAttribute="height" constant="40" id="qf1-D4-efl"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Love this crib!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0dB-DH-yO1">
+                        <rect key="frame" x="91" y="23" width="193" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="7z9-j8-Oga"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1:45 pm, Jan 20th" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zhp-qs-ShZ">
+                        <rect key="frame" x="66" y="56" width="63" height="10"/>
+                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="8"/>
+                        <color key="textColor" red="0.61960784310000006" green="0.61960784310000006" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.89411764709999997" green="0.90196078430000004" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="zhp-qs-ShZ" firstAttribute="leading" secondItem="tMr-r9-W8h" secondAttribute="trailing" constant="16" id="4Ac-nY-xAl"/>
+                    <constraint firstItem="zhp-qs-ShZ" firstAttribute="bottom" secondItem="tMr-r9-W8h" secondAttribute="bottom" id="6cD-fn-IPj"/>
+                    <constraint firstItem="0dB-DH-yO1" firstAttribute="top" secondItem="XSa-di-7EH" secondAttribute="top" constant="10" id="90i-Bg-yIa"/>
+                    <constraint firstAttribute="bottom" secondItem="tMr-r9-W8h" secondAttribute="bottom" constant="16" id="SQA-uU-g4Z"/>
+                    <constraint firstItem="tMr-r9-W8h" firstAttribute="top" secondItem="uk5-R0-Acd" secondAttribute="bottom" constant="4" id="UXq-Zb-CV1"/>
+                    <constraint firstItem="0dB-DH-yO1" firstAttribute="leading" secondItem="XSa-di-7EH" secondAttribute="leading" constant="35" id="Wrw-Zg-h3W"/>
+                    <constraint firstItem="0dB-DH-yO1" firstAttribute="trailing" secondItem="XSa-di-7EH" secondAttribute="trailing" constant="-20" id="aEi-gy-qHi"/>
+                    <constraint firstItem="XSa-di-7EH" firstAttribute="leading" secondItem="uk5-R0-Acd" secondAttribute="trailing" id="abW-cS-RQR"/>
+                    <constraint firstItem="tMr-r9-W8h" firstAttribute="centerX" secondItem="uk5-R0-Acd" secondAttribute="centerX" id="d5b-Jd-ZfQ"/>
+                    <constraint firstItem="uk5-R0-Acd" firstAttribute="leading" secondItem="h0Z-4v-9IU" secondAttribute="leading" constant="16" id="djw-Y8-SbL"/>
+                    <constraint firstItem="XSa-di-7EH" firstAttribute="bottom" secondItem="uk5-R0-Acd" secondAttribute="bottom" constant="5" id="ev3-cr-qx1"/>
+                    <constraint firstItem="0dB-DH-yO1" firstAttribute="bottom" secondItem="XSa-di-7EH" secondAttribute="bottom" constant="-10" id="kVq-Ga-EmI"/>
+                    <constraint firstAttribute="trailing" secondItem="XSa-di-7EH" secondAttribute="trailing" constant="16" id="mko-0s-9Pf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="chatMessage" destination="0dB-DH-yO1" id="xGd-Sb-eCa"/>
+                <outlet property="chatMessageHeightConstraint" destination="7z9-j8-Oga" id="Z32-lz-eHD"/>
+                <outlet property="chatTimestamp" destination="zhp-qs-ShZ" id="1nb-ZU-NVb"/>
+                <outlet property="userAvatar" destination="uk5-R0-Acd" id="ibs-Ur-fxl"/>
+                <outlet property="userFirstName" destination="tMr-r9-W8h" id="T3X-u9-jMa"/>
+            </connections>
+            <point key="canvasLocation" x="151" y="84"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="green-chat-bubble" width="833" height="165"/>
+    </resources>
+</document>
